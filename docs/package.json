@@ -1,0 +1,26 @@
+{
+  "name": "talk-xxx",
+  "version": "1.0.0",
+  "description": "Talk XXX with revealJS themed by Sfeir School",
+  "scripts": {
+    "sass": "sass ./scss/slides.scss:./css/slides.css --source-map --watch",
+    "sass-once": "sass ./scss/slides.scss:./css/slides.css --source-map",
+    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\"",
+    "start": "parallelshell \"npm run serve\" \"npm run sass\"",
+    "generate-slide-list": "cd scripts && sh generate-slide-list.sh",
+    "prepare": "node ./scripts/dont-touch/prepare-script.js",
+    "prettier": "prettier --config ../.prettierrc --write \"./markdown/**/*.{md,ts,js,json,html,scss}\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sfeir-school-theme": "^3.0.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "live-server": "^1.1.0",
+    "parallelshell": "3.0.1",
+    "sass": "^1.51.0",
+    "prettier": "2.8.8",
+    "shelljs": "^0.8.5"
+  }
+}
