@@ -1,18 +1,16 @@
-/*# sourceMappingURL=slides.css.map */
-
-.reveal table td,
-.reveal table th {
+.reveal .slides section .reveal table td,
+.reveal .slides section .reveal table th {
   padding: 1em;
 }
-
-.table-fit-content {
+.reveal .slides section .table-fit-content {
   width: auto !important;
 }
-
-code:not(pre code) {
+.reveal .slides section code:not(pre code) {
   background: lightgrey;
   font-weight: bolder;
   color: black;
   padding-left: 0.2em;
   padding-right: 0.2em;
 }
+
+/*# sourceMappingURL=slides.css.map */

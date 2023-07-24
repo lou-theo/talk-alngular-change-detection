@@ -1,6 +1,6 @@
 <!-- .slide: class="first-slide" -->
 
-# **Type talk - Nom talk**
+# **Sfeir Lunch - Angular**
 
-## **Description**
+## **La réactivité, comment ça fonctionne vraiment ?**
 
